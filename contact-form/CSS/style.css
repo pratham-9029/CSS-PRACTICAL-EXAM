@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container{
+}
+html,
+body {
+    font-family: 'Inter', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* contact form section start */
+body{
+    background: rgb(54, 235, 125);
+    background: linear-gradient(90deg, rgba(54, 235, 125, 1) 0%, rgba(20, 159, 140, 1) 100%);
+}
+.contact-form{
+    border-radius: 4px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.contact-header{
+    width: 100%;
+    height: 200px;
+    background-color: #38EF7D;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.contact-title{
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.box{
+    position: absolute;
+    background-color: #11998E;
+    border-radius: 50%;
+}
+.box1{
+    height: 220px;
+    width: 220px;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.box2{
+    height: 60px;
+    width: 60px;
+    right: 0;
+    bottom: 15%;
+    transform: translateX(20%);
+
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+    transform: translate(100%,20%);
+}
+.social-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon a i{
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: #80c8f5;
+    background-color: #ffffff;
+    margin-right: 8px;
+}
+.contact-datail{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.contact-datail input{
+    height: 30px;
+    margin-top: 10px;
+    background-color: #c0c0c09f;
+    border-radius: 4px;
+}
+.contact-datail input:focus{
+    border-color: #595959;
+}
+.btn{
+    display: inline-flex;
+    padding: 5px 8px;
+    border-radius: 4px;
+    background-color:#38EF7D;
+    color: black;
+    margin-top: 10px;
+}
+
+/* contact form section end */
